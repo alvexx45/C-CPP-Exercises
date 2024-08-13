@@ -1,0 +1,15 @@
+1. p++
+
+Move o ponteiro para a próxima posição.
+
+2. (*p)++
+
+Incrementa o valor armazenado no endereço atual apontado por "p".
+
+3. *(p++)
+
+Retorna o valor ao qual "p" aponta antes de mover "p" para a próxima posição.
+
+4. *(p + 10)
+
+Acessa o valor 10 posições além do endereço atual apontado por "p".

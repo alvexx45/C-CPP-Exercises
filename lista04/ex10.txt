@@ -1,0 +1,6 @@
+Código 1: valor impresso: 15
+Código 2: imprime um endereço de memória, que será o endereço original deslocado por 5 * sizeof(int) bytes
+
+Diferença:
+
+Erro no código 2: após o loop, ptr não aponta mais para o início do bloco de memória alocado, resultando em comportamento indefinido ao tentar liberar a memória com free(ptr). É crucial que ao usar free(ptr), ptr aponte para o início do bloco de memória alocado por malloc.
