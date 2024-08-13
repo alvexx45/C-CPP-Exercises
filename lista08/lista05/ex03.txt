@@ -1,0 +1,11 @@
+a) valor == &valorPtr: FALSA
+    valor é o valor armazenado na variável, &valorPtr é o endereço do ponteiro valorPtr.
+
+b) valor == *valorPtr: VERDADEIRA
+    *valorPtr é o valor armazenado na variável para a qual valorPtr aponta, que é valor.
+
+c) valorPtr == &valor: VERDADEIRA
+    valorPtr foi atribuído ao endereço de valor, portanto valorPtr contém &valor.
+
+d) valorPtr == *valor: FALSA
+    valor não é um ponteiro, e a desreferenciação *valor é incorreta.
